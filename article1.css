@@ -1,0 +1,228 @@
+/* body  */
+body{
+     background-color: rgb(255, 243, 248);
+}
+/* en tete  */
+
+header{
+    position: fixed;
+    top: 0cm;
+    width: 35cm;
+    height: 2.11cm;
+    background-image: url(file_00000000ebe061f790f4b78a8164bc4d.png);
+    z-index: 100;
+}
+@font-face {
+    font-family: Ashley;
+    src: url(Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: Assony;
+    src: url(EduSAHand-VariableFont_wght.ttf);
+}
+/* menu  */
+#menu{
+    display: flex;
+    position: fixed;
+    top: 0cm;
+    left: 5cm;
+}
+#menu a:link{
+    text-decoration: none;
+    color: #250a0f;
+    font-size: 18px;
+    font-weight: 900 bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu a:visited{
+    color: #360606;
+}
+li{
+    list-style: none;
+    padding: 0.3cm;
+}
+/* ligne  */
+header p{
+    position: fixed;
+    top: 0.75cm;
+    margin-top: 1cm;
+}
+/* main  */
+main{
+    margin-left: 1.5cm;
+    margin-right: 1cm;
+}
+/* article  */
+/* position  */
+#article1{
+    margin-top: 16.5cm;
+}
+/* titre  */
+#titre{
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500 bolder;
+    color: #7e162b;
+    text-align: center;
+    margin-top: 3cm;
+}
+#info{
+    font-size: 22px;
+    font-family: Ashley;
+    font-weight: 200 bold;
+    text-align: center;
+}
+/* image  */
+img{
+    width: 20cm;
+    height: 12cm;
+    position: absolute;
+    top: 8cm;
+}
+/* paragraphe */
+#article1 h4{
+    color: #7e162b;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300 bolder;
+    font-family: Ashley;
+
+}
+#article1 p{
+    display: flex;
+    align-items: center;
+    max-width: 23cm;
+    font-size: 20px;
+    font-weight: 200 bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* verset  */
+#aside{
+    width: 7cm;
+    height: 11.25cm;
+    position: fixed;
+    top: 4.5cm;
+    right: 1cm;
+    background-color:#f7d4dc;
+    border-radius: 5%;
+}
+#verset h4{
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: 100 bolder;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    margin-left: 0.5cm;
+}
+#verset p{
+    position: absolute;
+    top: 1cm;
+    right: 0.55cm;
+    font-family: Assony;
+    font-size: 13px;
+    font-weight: 500 bolder;
+    margin-left: 0.5cm;
+}
+/* inscription  */
+#inscription{
+    position: absolute;
+    top: 5.75cm;
+    right: 0.55cm;
+    margin-left: 0.5cm;
+}
+#inscription p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 10cm;
+}
+/* pied de page  */
+footer{
+    font-size: 19px;
+    margin-left: 0.5cm;
+}
+
+/* === RESPONSIVE === */
+@media only screen and (max-width: 768px) {
+  /* Titre de l'article */
+  #titre {
+    font-size: 1.4em;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* Infos (date et auteur) */
+  #info {
+    font-size: 0.9em;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* Image */
+  main img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Texte principal de l'article */
+  #article1 {
+    font-size: 1em;
+    line-height: 1.7;
+    padding: 10px;
+  }
+
+  /* Commentaire */
+  #commentaire {
+    padding: 10px;
+    margin: 20px 10px;
+  }
+
+  #commentaire textarea {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  #commentaire button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  /* Bloc verset + inscription */
+  #aside {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  #aside aside {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  /* Formulaire d’abonnement */
+  #inscription input[type="email"] {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  #inscription button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 15px;
+    font-size: 0.95em;
+    text-align: center;
+  }
+}

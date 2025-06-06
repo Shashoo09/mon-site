@@ -1,0 +1,537 @@
+/* @media only screen and (max-width:600px) */
+/* logo  */
+#logo{
+    width: 3cm;
+    height: 3cm;
+    position: relative;
+    /* top: 0px; */
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    margin-top: 0.5cm;
+}
+/* couleur en tete  */
+header{
+    background-color: #fce7eb;
+    position: static;
+    top: 0;
+    height: 4cm;
+    width: 35cm;
+}
+/* slogan  */
+header p{
+     margin-right: 1.5cm;
+     margin-top: 1.5cm;
+     position: absolute;
+     top: 1cm;
+     left: 7cm;
+     text-align: right;
+     font-size: 36px;
+      font-style: italic;
+      font-weight: 100 bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* menu  */
+#menu{
+    display: flex;
+    position: absolute;
+    top: 0cm;
+    left: 5cm;
+}
+#menu a:link{
+    text-decoration: none;
+    color: #9e1e38;
+    font-size: 20px;
+    font-weight: 900 bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu a:visited{
+    color: #791764;
+}
+li{
+    list-style: none;
+    padding: 0.3cm;
+}
+/* main  */
+/* bienvenue  */
+#bienvenue{
+    background-color: #fff3f5;
+    width: 26cm;
+}
+#bienvenue h1{
+    /* margin-top: 2cm; */
+    font-size: 50px;
+    font-weight: 100 bolder;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bienvenue p{
+    font-size: large;
+    font-weight: 200 bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: right;
+}
+/* rubriques  */
+main h2{
+    font-size: 30px;
+    font-weight: 100 bolder;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#secrubrique{
+    margin-top: 3cm;
+}
+/* titre rubriques  */
+div h3{
+    font-size: 23px;
+    font-weight: 200 bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    padding-right: 2cm;
+}
+#rubriques {
+    display: flex;
+    background-color: #f6e7e7;
+    width: 43cm;
+}
+/* images rubriques  */
+#rubriques img{
+    width: 10cm;
+    height: 12cm;
+    margin-right: 0.5cm;
+}
+/* prubriques  */
+#rubriques p{
+    color: #680a1d;
+    font-size: 18px;
+    font-weight: 200 bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 0.6cm;
+    text-decoration: none;
+}
+#rubriques a:link{
+    text-decoration: none;
+}
+/* versets  */
+aside{
+    width: 7cm;
+    height: 9cm;
+    position: absolute;
+    top: 5.5cm;
+    right: 1cm;
+}
+aside h4{
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: 100 bolder;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+}
+aside p{
+    position: absolute;
+    top: 1.3cm;
+    right: 1cm;
+    font-family: Ashley;
+    font-size: 20px;
+    font-weight: 400 bolder;
+}
+/* articles  */
+#secarticles{
+    /* display: flex; */
+    width: 50cm;
+    margin-top: 3cm;
+}
+#articles{
+    display: flex;
+}
+/* titres articles  */
+@font-face {
+    font-family: Ashley;
+    src: url(Parisienne-Regular.ttf);
+}
+div h4{
+    font-size: 28px;
+    font-weight: 200 bolder;
+    font-family: Ashley;
+   display: flex;
+    padding-right: 0.4cm;
+    position: relative;
+    bottom: 1cm;
+}
+/* images  */
+#articles img{
+    width: 15cm;
+    height: 12cm;
+    margin-right: 0.2cm;
+}
+/* paragraphes */
+#articles p{
+  color: #680a1d;
+    font-size: 18px;
+    font-weight: 200 bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 0.6cm;
+    text-decoration: none;
+    position: relative;
+    bottom: 2cm;
+}  
+/* article 1  */
+#article1{
+    background-color: #faf3f4;
+    width: 16cm;
+    height: 17cm;
+    border-radius: 5%;
+}
+#article1 img{
+    margin: 0.5cm;
+}
+/* article 2  */
+#article2{
+     background-color: #faf3f4;
+    width: 16cm;
+    height: 17cm;
+    border-radius: 5%;
+}
+#article2 img{
+    margin: 0.5cm;
+}
+/* article 3  */
+#article3{
+     background-color: #faf3f4;
+    width: 16cm;
+    height: 17cm;
+    border-radius: 5%;
+}
+#article3 img{
+    margin: 0.5cm;
+}
+#articles div{
+    margin-left: 1cm;
+}
+
+/* footer  */
+/* pensee  */
+#pensee{
+    /* texte  */
+    font-size: 25px;
+    font-weight: 600 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    color: #7c1026;
+    /* position  */
+    margin-left: 0.5cm;
+    margin-top: 1cm;
+}
+/* inscription  */
+#inscription p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 10cm;
+}
+/* fin  */
+#fin{
+    margin-top: 1cm;
+    background-image: url(file_00000000dd3c61f88ea6ef11ef1fe83c.png);
+}
+/* menu  */
+#menupied{
+    display: flex;
+    margin-left: 6.5cm;
+}
+#menupied a:link{
+    text-decoration: none;
+    color: #493b3e;
+    font-size: 16px;
+    font-weight: 900 bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menupied a:visited{
+    color: #493b3e;
+}
+/* reseaux  */
+#reseaux{
+    position: relative;
+    left: 17cm;
+    display: flex;
+}
+#reseaux a:link{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 0.2cm;
+}
+/* mention legale  */
+#mention{
+    font-size: 19px;
+    margin-left: 0.5cm;
+}
+/*  */
+/* ecran mobile  */
+@media only screen and (max-width: 768px) {
+    body{
+        box-sizing: content-box;
+        height: 20cm;
+    }
+ #logo{
+    width: 2cm;
+    height: 1.65cm;
+    position: relative;
+    /* top: 0px; */
+    margin-left: 0.1cm;
+    margin-right: 0.1cm;
+    margin-top: 0.35cm;
+ }
+ /* couleur en tete  */
+header{
+    background-color: #fce7eb;
+    position: static;
+    top: 0;
+    height: 2.25cm;
+    width: 13cm;
+}
+/* slogan  */
+header p{
+     margin-right: 0.2cm;
+     margin-top: 0.3cm;
+     position: absolute;
+     top: 1.75cm;
+     left: 2.70cm;
+     text-align: right;
+     font-size: 9px;
+      font-style: italic;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* menu  */
+#menu{
+    display: flex;
+    position: absolute;
+    top: 0cm;
+    left: 1.40cm;
+}
+#menu a:link{
+    text-decoration: none;
+    color: #9e1e38;
+    font-size: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu a:visited{
+    color: #791764;
+}
+li{
+    list-style: none;
+    padding: 0.1cm;
+}
+/* main  */
+/* bienvenue  */
+#bienvenue{
+    background-color: #fff3f5;
+    width: 10cm;
+}
+#bienvenue h1{
+    /* margin-top: 2cm; */
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bienvenue p{
+    font-size: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: right;
+}
+/* rubriques  */
+main h2{
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#secrubrique{
+    margin-top: 1cm;
+}
+/* titre rubriques  */
+div h3{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    padding-right: 0.75cm;
+}
+#rubriques {
+    display: flex;
+    background-color: #f6e7e7;
+    width: 15cm;
+}
+/* images rubriques  */
+#rubriques img{
+    width: 3.5cm;
+    height: 3cm;
+    margin-right: 0.25cm;
+}
+/* prubriques  */
+#rubriques p{
+    color: #680a1d;
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 0.2cm;
+    text-decoration: none;
+}
+#rubriques a:link{
+    text-decoration: none;
+}
+/* versets  */
+aside{
+    position: relative;
+    top: 1.5cm;
+    left: 1cm;
+    width: 7cm;
+    height: 5cm;
+}
+aside h4{
+    color: #2f2f2f;
+    font-size: 11px;
+    /* font-weight: 100 bolder; */
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-align: start; */
+}
+aside p{
+    font-family: Ashley;
+    font-size: 12px;
+    position: relative;
+    bottom: 2cm;
+    /* font-weight: 400 bolder; */
+}
+/* articles  */
+#secarticles{
+    /* display: flex; */
+    width: 13cm;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+}
+#articles{
+    display: flex;
+}
+/* titres articles  */
+@font-face {
+    font-family: Ashley;
+    src: url(Parisienne-Regular.ttf);
+}
+div h4{
+    font-size: 11px;
+    /* font-weight: 200 bolder; */
+    font-family: Ashley;
+   display: flex;
+    padding-right: 0.2cm;
+    position: relative;
+    bottom: 0.5cm;
+}
+/* images  */
+#articles img{
+    width: 4cm;
+    height: 4cm;
+    margin-right: 0.1cm;
+}
+/* paragraphes */
+#articles p{
+  color: #680a1d;
+    font-size: 10px;
+    /* font-weight: 200 bold; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 0.25cm;
+    text-decoration: none;
+    position: relative;
+    bottom: 0.65cm;
+}  
+/* article 1  */
+#article1{
+    background-color: #faf3f4;
+    width: 5.5cm;
+    height: 6cm;
+    border-radius: 5%;
+}
+#article1 img{
+    margin: 0.25cm;
+}
+/* article 2  */
+#article2{
+    background-color: #faf3f4;
+    width: 5.5cm;
+    height: 6cm;
+    border-radius: 5%;
+}
+#article2 img{
+    margin: 0.25cm;
+}
+/* article 3  */
+#article3{
+    background-color: #faf3f4;
+    width: 5.5cm;
+    height: 6cm;
+    border-radius: 5%;
+}
+#article3 img{
+    margin: 0.25cm;
+}
+#articles div{
+    margin-left: 0.45cm;
+}
+#ligne{
+    width: 10cm;
+}
+/* footer  */
+/* pensee  */
+#pensee{
+    /* texte  */
+    font-size: 8.5px;
+    /* font-weight: 600 bolder; */
+    font-style: italic;
+    font-family: Ashley;
+    color: #7c1026;
+     /* position  */
+    margin-left: 0.15cm;
+    margin-top: 0.95cm;
+}
+/* inscription  */
+#inscription p{
+    font-size: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 8cm;
+}
+/* fin  */
+#fin{
+    margin-top: 1cm;
+    background-image: url(file_00000000dd3c61f88ea6ef11ef1fe83c.png);
+}
+/* menu  */
+#menupied{
+    display: flex;
+    margin-left: 0.5cm;
+}
+#menupied a:link{
+    text-decoration: none;
+    color: #493b3e;
+    font-size: 5px;
+    /* font-weight: 900 bolder; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menupied a:visited{
+    color: #493b3e;
+}
+/* reseaux  */
+#reseaux{
+    position: relative;
+    left: 5cm;
+    display: flex;
+}
+#reseaux a:link{
+    text-decoration: none;
+    font-size: 8px;
+    padding-left: 0.2cm;
+}
+/* mention legale  */
+#mention{
+    font-size: 9px;
+    margin-left: 0.4cm;
+}
+}

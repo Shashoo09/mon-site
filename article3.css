@@ -1,0 +1,324 @@
+ /* body  */
+body{
+    background-color: #fdfbfc;
+}
+/* en tete  */
+header{
+    position: fixed;
+    top: 0cm;
+    width: 35cm;
+    height: 2.11cm;
+    background-image: url(file_00000000ebe061f790f4b78a8164bc4d.png);
+    z-index: 100;
+}
+@font-face {
+    font-family: Ashley;
+    src: url(Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: Assony;
+    src: url(EduSAHand-VariableFont_wght.ttf);
+}
+/* menu  */
+#menu{
+    display: flex;
+    position: fixed;
+    top: 0cm;
+    left: 5cm;
+}
+#menu a:link{
+    text-decoration: none;
+    color: #250a0f;
+    font-size: 18px;
+    font-weight: 900 bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu a:visited{
+    color: #360606;
+}
+li{
+    list-style: none;
+    padding: 0.3cm;
+}
+/* ligne  */
+header p{
+    position: fixed;
+    top: 0.75cm;
+    margin-top: 1cm;
+}
+/* partie principale  */
+#article3{
+    margin-top: 3cm;
+    margin-left: 1cm;
+}
+/* titre  */
+#article3 h3{
+    font-size: 35px;
+    font-weight: 300 bolder;
+    font-family: Ashley;
+    color: #961010;
+}
+#article3 p{
+    display: flex;
+    align-items: center;
+    max-width: 14cm;
+    font-size: 18px;
+    font-weight: 400 bold;
+    font-family: Assony;
+}
+/* films  */
+/* image  */
+#article3 img{
+    width: 4cm;
+    height: 4cm;
+    border-radius: 30%;
+    position: relative;
+    left: 16.5cm;
+    top: 1.85cm;
+}
+/* film 1  */
+#film1{
+    width: 22cm;
+    height: 9cm;
+    background-color: #fff1f5;
+    border-radius: 8%;
+}
+#film1 h4{
+    /* texte  */
+    font-size: 32px;
+    font-weight: 200 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    /* position  */
+    position: absolute;
+    top: 7.50cm;
+    left: 2cm;
+}
+#film1 p{
+    position: absolute;
+    top: 9.75cm;
+    left: 2cm;
+}
+/* film 2  */
+#film2{
+    width: 22cm;
+    height: 9cm;
+    background-color: #fff1f5;
+    border-radius: 8%;
+    margin-top: 1.5cm;
+}
+#film2 h4{
+    /* texte  */
+    font-size: 32px;
+    font-weight: 200 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    /* position  */
+    position: relative;
+    bottom: 4.5cm;
+    left: 2cm;
+}
+#film2 p{
+    position: relative;
+    bottom: 5cm;
+    left: 2cm;
+}
+/* film 3  */
+#film3{
+    width: 22cm;
+    height: 9cm;
+    background-color: #fff1f5;
+    border-radius: 8%;
+    margin-top: 1.5cm;
+}
+#film3 h4{
+    /* texte  */
+    font-size: 32px;
+    font-weight: 200 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    /* position  */
+    position: relative;
+    bottom: 4.5cm;
+    left: 2cm;
+}
+#film3 p{
+    position: relative;
+    bottom: 5cm;
+    left: 2cm;
+}
+/* film 4  */
+#film4{
+    width: 22cm;
+    height: 9cm;
+    background-color: #fff1f5;
+    border-radius: 8%;
+    margin-top: 1.5cm;
+}
+#film4 h4{
+    /* texte  */
+    font-size: 32px;
+    font-weight: 200 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    /* position  */
+    position: relative;
+    bottom: 4.5cm;
+    left: 2cm;
+}
+#film4 p{
+    position: relative;
+    bottom: 5cm;
+    left: 2cm;
+}
+/* film 5  */
+#film5{
+    width: 22cm;
+    height: 9cm;
+    background-color: #fff1f5;
+    border-radius: 8%;
+    margin-top: 1.5cm;
+}
+#film5 h4{
+    /* texte  */
+    font-size: 32px;
+    font-weight: 200 bolder;
+    font-style: italic;
+    font-family: Ashley;
+    /* position  */
+    position: relative;
+    bottom: 4.5cm;
+    left: 2cm;
+}
+#film5 p{
+    position: relative;
+    bottom: 5cm;
+    left: 2cm;
+}
+/* conclusion  */
+#conclusion p{
+     display: flex;
+    align-items: center;
+    max-width: 22cm;
+    font-size: 18px;
+    font-weight: 400 bold;
+    font-family: Assony;  
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+/* verset  */
+#aside{
+    width: 7cm;
+    height: 11.25cm;
+    position: fixed;
+    top: 4.5cm;
+    right: 1cm;
+    background-color:#f7d4dc;
+    border-radius: 5%;
+}
+#verset h4{
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: 100 bolder;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: start;
+    margin-left: 0.5cm;
+}
+#verset p{
+    position: absolute;
+    top: 1cm;
+    right: 0.55cm;
+    font-family: Assony;
+    font-size: 13px;
+    font-weight: 500 bolder;
+    margin-left: 0.5cm;
+}
+/* inscription  */
+#inscription{
+    position: absolute;
+    top: 5.75cm;
+    right: 0.55cm;
+    margin-left: 0.5cm;
+}
+#inscription p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    max-width: 10cm;
+}
+/* pied de page  */
+footer{
+    font-size: 19px;
+    margin-left: 0.5cm;
+} 
+
+/* === RESPONSIVE === */
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.4em;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1em;
+    padding: 0 10px;
+    line-height: 1.6;
+  }
+
+  #article3, #conclusion {
+    padding: 10px;
+  }
+
+  #article3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  #article3 div {
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  /* Section aside verset + inscription */
+  #aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  #aside aside {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  #inscription input[type="email"] {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  #inscription button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.95em;
+    text-align: center;
+  }
+}
